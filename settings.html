@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Account</title>
+  <link rel="shortcut icon" href="pngwing.com.png" type="image/x-icon" style="object-fit: contain;">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .header {
+      width: 100%;
+      padding: 20px;
+      background-color: #232f3e;
+      color: #fff;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    
+    /* Main container */
+    .container {
+      max-width: 1200px;
+      padding: 20px;
+    }
+    .container h2 {
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Side-by-side grid layout for account options */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    /* Card styling */
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+      width: 250px; /* Fixed width to control the grid layout */
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 40px;
+      height: 40px;
+    }
+    .card-content {
+      text-align: center;
+    }
+    .card-content h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+    .card-content p {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+ 
+  <div class="container">
+  
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/box.png" alt="Orders Icon">
+        <div class="card-content">
+          <h3>Your Orders</h3>
+          <p>Track, return, or buy things again</p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+       <a href="login.html"> <img src="https://img.icons8.com/ios-filled/50/000000/password.png" alt="Login Icon"></a>
+        <div class="card-content">
+          <h3>Login & Security</h3>
+          <p>Edit login, name, and mobile number</p>
+        </div>
+      </div>
+     
+      <div class="card">
+        <img src="pngwing.com (3).png" alt="Address Icon">
+        <div class="card-content">
+          <h3>Your Addresses</h3>
+          <p>Edit addresses for orders and gifts</p>
+        </div>
+      </div>
+     
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/wallet.png" alt="Payment Icon">
+        <div class="card-content">
+          <h3>Payment Options</h3>
+          <p>Edit or add payment methods</p>
+        </div>
+      </div>
+     
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/amazon.png" alt="Amazon Pay Icon">
+        <div class="card-content">
+          <h3>Zantrix Balance</h3>
+          <p>Add money to your balance</p>
+        </div>
+      </div>
+    
+      <div class="card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Contact Icon">
+        <div class="card-content">
+          <h3>Contact Us</h3>
+          <p>Contact our customer service</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
